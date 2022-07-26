@@ -15,5 +15,5 @@ Chrome plugin that enhances my internet browsing experience.
 UnicodeData.txt is from <http://unicode.org/Public/UNIDATA/UnicodeData.txt>
 
 # Installing
-just look it up lol, it takes like 2 minutes to figure it out
+just look it up lol takes like 2 minutes to figure it out
 
