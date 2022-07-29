@@ -1,6 +1,6 @@
 {
 	"name" : "better internet",
-	"description" : "enhances your internet browsing experience since clearly you're not leaving this place any soon",
+	"description" : "enhances your internet browsing experience since clearly you're not leaving this place any time soon",
 	"version" : "1.0",
 	"manifest_version" : 3,
 	"content_scripts" : [
