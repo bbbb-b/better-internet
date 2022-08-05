@@ -12,6 +12,7 @@ function fixShitTwitter() {
 	if (!emojiMap) 
 		return;
 	[].slice.call(document.getElementsByTagName("img"))
+		//https://abs-0.twimg.com/emoji/v2/svg/1f36c.svg
 		.filter(f => new URL(f.src).pathname.indexOf("emoji") != -1)
 		.forEach(img => {
 			var hex = new URL(img.src).pathname.split("/").slice(-1)[0].split(".")[0].toUpperCase()
@@ -25,4 +26,4 @@ function fixShit() {
 	fixShitTwitter()
 }
 
-setInterval(fixShit, 100);
+setInterval(fixShit, 100); // 1/10 sec
